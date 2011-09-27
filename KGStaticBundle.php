@@ -1,6 +1,6 @@
 <?php
 
-namespace KG\Bundle\StaticBundle;
+namespace KG\StaticBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

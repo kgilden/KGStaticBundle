@@ -20,11 +20,6 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('kg_static');
 
-        $rootNode
-            ->children()
-                ->scalarNode('dir')->defaultValue('Static')->end()
-            ->end();
-
         return $treeBuilder;
     }
 }
