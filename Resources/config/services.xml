@@ -10,8 +10,8 @@
     
     <services>
     	<service id="kg_static.extension.static" class="%kg_static.extension.static.class%">
-    		<argument type="service" id="http_kernel" />
-    		<tag name="twig.exension" />   	
+    		<tag name="twig.exension" />
+    		<argument type="service" id="kernel" />
     	</service>
     </services>
     
