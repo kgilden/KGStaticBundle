@@ -1,0 +1,15 @@
+{
+    "name": "kgilden/static-bundle",
+    "description": "Render content from files in Twig templates",
+    "require": {
+        "symfony/framework-bundle": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristen Gilden",
+            "email": "kristen.gilden@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
