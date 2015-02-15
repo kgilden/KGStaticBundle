@@ -1,6 +1,8 @@
 KGStaticBundle
 ==============
 
+[![Build Status](https://img.shields.io/travis/kgilden/KGStaticBundle/master.svg?style=flat)](https://travis-ci.org/kgilden/KGStaticBundle)
+
 This bundles allows you to load static content from files using Symfony's
 shorthand "@" syntax.
 
