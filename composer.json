@@ -3,7 +3,7 @@
     "description": "Render content from files in Twig templates",
     "require": {
         "symfony/framework-bundle": "~2.0",
-        "twig/twig": "~1.18"
+        "twig/twig": "~1.0"
     },
     "license": "MIT",
     "authors": [
