@@ -2,7 +2,8 @@
     "name": "kgilden/static-bundle",
     "description": "Render content from files in Twig templates",
     "require": {
-        "symfony/framework-bundle": "~2.0"
+        "symfony/framework-bundle": "~2.0",
+        "twig/twig": "~1.18"
     },
     "license": "MIT",
     "authors": [
@@ -11,5 +12,9 @@
             "email": "kristen.gilden@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {"KG\\StaticBundle": ""}
+    },
+    "target-dir": "KG/StaticBundle"
 }
