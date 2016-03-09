@@ -21,7 +21,7 @@ class StaticExtension extends \Twig_Extension
     public function getFunctions()
     {
         return array(
-            'file' => new \Twig_Function_Method($this, 'file')
+            'file' => new \Twig_SimpleFunction('file', [$this, 'file'])
         );
     }
 
