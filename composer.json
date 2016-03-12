@@ -2,6 +2,7 @@
     "name": "kgilden/static-bundle",
     "description": "Render content from files in Twig templates",
     "require": {
+        "php": ">=5.4.0",
         "symfony/framework-bundle": "~2.0",
         "twig/twig": "~1.0"
     },
